@@ -1,10 +1,6 @@
 #  LAMP stack built with Docker Compose
 
-  
-
 ![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
-
-  
 
 A basic LAMP stack environment built using Docker Compose. It consists of the following:
 
@@ -12,7 +8,6 @@ A basic LAMP stack environment built using Docker Compose. It consists of the fo
 * Apache
 * MySQL
 * phpMyAdmin
-* Redis
 
 As of now, we have several different PHP versions. Use appropriate php version as needed:
 
@@ -150,16 +145,6 @@ phpMyAdmin is configured to run on port 8080. Use following default credentials.
 http://localhost:8080/  
 username: root  
 password: tiger
-
-## Redis
-
-It comes with Redis. It runs on default port `6379`.
-
-## Contributing
-We are happy if you want to create a pull request or help people with their issues. If you want to create a PR, please remember that this stack is not built for production usage, and changes should good for general purpose and not overspecialized. 
-> Please note that we simplified the project structure from several branches for each php version, to one centralized master branch.  Please create your PR against master branch. 
-> 
-Thank you! 
 
 ## Why you shouldn't use this stack unmodified in production
 We want to empower developers to quickly create creative Applications. Therefore we are providing an easy to set up a local development environment for several different Frameworks and PHP Versions. 
